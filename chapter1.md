@@ -124,6 +124,54 @@ success_msg("Awesome, checking the distribution visually is a great way to get a
 
 ---
 
+## Insert exercise title here
+
+```yaml
+type: NormalExercise 
+xp: 100 
+key: c54b3a3581   
+```
+
+
+normal exercise
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{python}
+
+```
+
+
+`@sample_code`
+
+```{python}
+
+```
+
+
+`@solution`
+
+```{python}
+
+```
+
+
+`@sct`
+
+```{r}
+
+```
+
+
+---
+
 ## Create slideshows
 
 ```yaml
@@ -254,7 +302,7 @@ dsadsdasda
 
 `@sct`
 
-```{r}
+```{python}
 test_error()
 test_yaml_header(options = "title")
 test_yaml_header(options = "author", check_equality = FALSE)
