@@ -1,20 +1,22 @@
 ---
 title: Test
 description: Test
-
 ---
 
 ## An exercise title written in sentence case
 
 ```yaml
-type: NormalExercise
+type: NormalExercise 
 lang: python
-xp: 100
+xp: 100 
 skills: 2
+key: c6efdf6a5d   
 ```
+
 
 This is the assignment text. It should help provide students with the background information needed.
 The instructions that follow should be in bullet point form with clear guidance for what is expected.
+
 
 `@instructions`
 - Instruction 1
@@ -33,6 +35,7 @@ The instructions that follow should be in bullet point form with clear guidance 
 # Load datasets and packages here.
 ```
 
+
 `@sample_code`
 
 ```{python}
@@ -47,6 +50,7 @@ The instructions that follow should be in bullet point form with clear guidance 
 # of 16 lines.
 ```
 
+
 `@solution`
 
 ```{python}
@@ -56,6 +60,7 @@ The instructions that follow should be in bullet point form with clear guidance 
 # to given.
 ```
 
+
 `@sct`
 
 ```{python}
@@ -63,19 +68,22 @@ The instructions that follow should be in bullet point form with clear guidance 
 success_msg("Some praise! Then reinforce a learning objective from the exercise.")
 ```
 
+
 ---
 
 ## Using Visualizations: distplot
 
 ```yaml
-type: SingleProcessExercise
+type: SingleProcessExercise 
 lang: python
-xp: 100
+xp: 100 
 skills: 2
 key: 345b78dcfb   
 ```
 
-assignment text 
+
+assignment text
+
 
 `@instructions`
 * Using the loaded data set `df` filter it down to a single column 'OriginalListPrice' with `select()`.
@@ -113,15 +121,16 @@ dsadsdasda
 success_msg("Awesome, checking the distribution visually is a great way to get an idea of what steps will need to be taken before applying a model.")
 ```
 
+
 ---
 
 ## Create slideshows
 
 ```yaml
-type: MarkdownExercise
-xp: 100
+type: MarkdownExercise 
+xp: 100 
 skills: 1,5
-key: 3fbc35eb2b
+key: 3fbc35eb2b   
 ```
 
 
