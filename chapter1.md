@@ -6,17 +6,15 @@ description: Test
 ## An exercise title written in sentence case
 
 ```yaml
-type: NormalExercise 
+type: NormalExercise
+key: da178ff2d5
 lang: python
-xp: 100 
+xp: 100
 skills: 2
-key: da178ff2d5   
 ```
-
 
 This is the assignment text. It should help provide students with the background information needed.
 The instructions that follow should be in bullet point form with clear guidance for what is expected.
-
 
 `@instructions`
 - Instruction 1
@@ -30,14 +28,11 @@ The instructions that follow should be in bullet point form with clear guidance 
 - Typically one hint per instruction is a sensible amount.
 
 `@pre_exercise_code`
-
 ```{python}
 # Load datasets and packages here.
 ```
 
-
 `@sample_code`
-
 ```{python}
 # Your
 # sample
@@ -50,9 +45,7 @@ The instructions that follow should be in bullet point form with clear guidance 
 # of 16 lines.
 ```
 
-
 `@solution`
-
 ```{python}
 # Answer goes here
 # Make sure to match the comments with your sample code
@@ -60,30 +53,25 @@ The instructions that follow should be in bullet point form with clear guidance 
 # to given.
 ```
 
-
 `@sct`
-
 ```{python}
 # Update this to something more informative.
 success_msg("Some praise! Then reinforce a learning objective from the exercise.")
 ```
-
 
 ---
 
 ## Using Visualizations: distplot
 
 ```yaml
-type: SingleProcessExercise 
+type: SingleProcessExercise
+key: 345b78dcfb
 lang: python
-xp: 100 
+xp: 100
 skills: 2
-key: 345b78dcfb   
 ```
 
-
 assignment texta
-
 
 `@instructions`
 * Using the loaded data set `df` filter it down to a single column 'OriginalListPrice' with `select()`.
@@ -93,46 +81,37 @@ assignment texta
 Becareful with the dictionary when applying agg functions its .agg({'foo\_column': 'bar\_agg_func'}). The function name is a string.
 
 `@pre_exercise_code`
-
 ```{python}
 _init_spadsadasda
 dasdasda
 ```
 
-
 `@sample_code`
-
 ```{python}
 dasdasd
 _____
 ```
 
-
 `@solution`
-
 ```{python}
 dsadsdasda
 ```
 
-
 `@sct`
-
 ```{python}
 success_msg("Awesome, checking the distribution visually is a great way to get an idea of what steps will need to be taken before applying a model.")
 ```
-
 
 ---
 
 ## Create slideshows
 
 ```yaml
-type: MarkdownExercise 
-xp: 100 
+type: MarkdownExercise
+key: 3fbc35eb2b
+xp: 100
 skills: 1,5
-key: 3fbc35eb2b   
 ```
-
 
 You can also export your file as a slideshow by changing the output field to:
 
@@ -159,7 +138,6 @@ R Markdown will start a new slide at each first or second level header in your d
     ***
 
 Everywhere you add these three asterisks in your text, pandoc will create a new slide.
-
 
 `@instructions`
 - Change the output type of the cloud report to a slidy HTML slideshow.
@@ -253,7 +231,6 @@ dsadsdasda
 ```
 
 `@sct`
-
 ```{r}
 test_error()
 test_yaml_header(options = "title")
@@ -266,5 +243,3 @@ test_text(text = "high altitudes.[[:space:]]+\\*\\*\\*[[:space:]]+You can conver
 })
 success_msg("Great job! When you render R Markdown documents on your own computer, R Markdown will save a copy of the file (in the output file type) on your machine. It will appear in the same folder that the .Rmd file lives in. Feel free to experiment with the other slideshow formats in this exercise!")
 ```
-
-
