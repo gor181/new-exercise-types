@@ -243,3 +243,34 @@ test_text(text = "high altitudes.[[:space:]]+\\*\\*\\*[[:space:]]+You can conver
 })
 success_msg("Great job! When you render R Markdown documents on your own computer, R Markdown will save a copy of the file (in the output file type) on your machine. It will appear in the same folder that the .Rmd file lives in. Feel free to experiment with the other slideshow formats in this exercise!")
 ```
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: MultipleChoiceExercise
+key: 47db0b9b42
+xp: 50
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+
+```{python}
+
+```
+
+
+`@sct`
+
+```{python}
+
+```
